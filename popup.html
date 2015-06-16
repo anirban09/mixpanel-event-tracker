@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mixpanel Event Tracker</title>
+  <meta name="description" content="Parse and display tracking data sent to Mixpanel.">
+  <meta name="author" content="Anirban Sengupta">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/tables.css">
+  <link rel="stylesheet" href="css/buttons-core.css">
+  <link rel="stylesheet" href="css/buttons.css">
+  <style type="text/css">
+    body {
+      min-width: 250px;
+    }
+    div {
+      font-size: 14px;
+    }
+    table {
+      width: 100%;
+      font-size: 12px;
+      word-wrap: break-word;
+      font-family: "Menlo", "Inconsolata", monospace;
+    }
+    /* for 720p display */
+    @media screen and (max-width: 800px) {
+        .url {
+            max-width: 100px;
+        }
+    }
+    /* for 1080p display */
+    @media screen and (max-width: 1100px) {
+        .url {
+            max-width: 140px;
+        }
+    }
+    /* for Retina display */
+    @media screen and (max-width: 1800px) {
+        .url {
+            max-width: 200px;
+        }
+    }
+    pre {
+      font-family: "Menlo", "Inconsolata", monospace;
+      line-height: 1.5;
+    }
+  </style>
+  <script src="popup.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="header"><h2 style="text-align: center">Mixpanel Event Tracker</h2></div>
+  <div id="container">
+    <div style="text-align: center">No events triggered yet</div><br>
+  </div>
+</body>
+</html>

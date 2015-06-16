@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+
+    "name": "Mixpanel Event Tracker",
+    "short_name": "Mixpanel Tracker",
+    "description": "Parse and display tracking data sent to Mixpanel.",
+    "version": "0.1",
+    "author": "Anirban Sengupta",
+
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "http://*/*", 
+        "https://*/*"
+    ]
+}

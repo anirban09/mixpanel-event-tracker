@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="128"
+   height="128"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-924.36218)"
+     id="layer1">
+    <g
+       transform="matrix(1.2358895,0,0,1.2358895,0.49999749,889.07716)"
+       id="outlined">
+      <g
+         id="g3075">
+        <path
+           d="m 96.181,95.479 c -3.78,0 -6.58,-2.939 -6.58,-6.58 v -28 c 0,-9.66 -4.62,-17.08 -14.98,-17.08 -10.36,0 -16.66,7.98 -16.66,17.221 v 27.859 c 0,3.641 -2.52,6.58 -6.58,6.58 -3.92,0 -6.58,-2.939 -6.58,-6.58 v -28 c 0,-9.66 -5.04,-17.08 -15.4,-17.08 -10.64,0 -16.24,7.98 -16.24,17.221 v 27.859 c 0,3.641 -2.66,6.58 -6.58,6.58 C 2.8,95.479 0,92.54 0,88.899 v -49.7 c 0,-3.92 2.52,-6.72 6.58,-6.72 4.48,0 6.58,3.08 6.58,6.72 v 4.48 c 3.78,-7.42 11.48,-11.76 19.74,-11.76 10.08,0 17.64,5.04 21.42,12.46 5.46,-8.4 13.44,-12.46 23.38,-12.46 16.94,0 25.06,11.62 25.06,28 v 28.979 c -0.001,3.642 -2.659,6.581 -6.579,6.581 z"
+           id="path3077"
+           style="fill:#33547d" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.74710717,0,0,0.74710717,-0.37187388,927.26462)"
+       id="outlined-1">
+      <g
+         id="g3127">
+        <circle
+           cx="22.667"
+           cy="140.52499"
+           r="21.5"
+           id="circle3129"
+           style="fill:#33547d" />
+        <circle
+           cx="100.277"
+           cy="140.75999"
+           r="15.207"
+           id="circle3131"
+           style="fill:#33547d" />
+        <circle
+           cx="164.252"
+           cy="140.75999"
+           r="6.9039998"
+           id="circle3133"
+           style="fill:#33547d" />
+      </g>
+    </g>
+  </g>
+</svg>

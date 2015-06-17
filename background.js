@@ -3,7 +3,7 @@ var events = [];
 chrome.webRequest.onBeforeSendHeaders.addListener(
     function(details) {
         var referrer;
-        if (details.url.split('.com')[0] == 'https://api.mixpanel') { // change this if the Mixpanel API URL ever changes
+        if (details.url.split('.com')[0].split('//')[1] == 'api.mixpanel') { // change this if the Mixpanel API URL ever changes
             for (i = 0; i < details.requestHeaders.length; i++) {
                 if (details.requestHeaders[i].name === 'Referer') {
                   referrer = details.requestHeaders[i].value;

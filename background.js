@@ -11,7 +11,9 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
                 }
             }
             data = JSON.parse(atob(decodeURIComponent(details.url.split('data=')[1].split('&')[0])));
-            events.push([referrer, data]);
+            if (data.hasOwnProperty('event') && data.hasOwnProperty('properties')) {
+                events.push([referrer, data]);
+            }   
         }
     },
     {urls: ['http://*/*', 'https://*/*']},
